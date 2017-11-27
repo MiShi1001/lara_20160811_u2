@@ -10,10 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-//初始化
-Route::get('/', function () {
+//修改 Route 裡的路徑
+Route::get('say/{name?}',['as' => 'hello.index',function ($name = 'Everybody'){
     return view('welcome');
-});
+}]);
 
 /*回傳字串
 Route::get('/', function () {
