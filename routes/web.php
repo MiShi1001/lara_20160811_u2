@@ -31,3 +31,7 @@ Route::get('hello/{name}',function($name){
 Route::get('hello/{name?}',['as'=>'hello.index',function($name='Everybody'){
     return'Hello,'.$name;
 }]);
+
+Route::get('dashboard',function(){
+    return 'dashboard';
+});
