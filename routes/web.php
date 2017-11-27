@@ -15,7 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 */
-
+/*回傳字串
 Route::get('/', function () {
     return 'welcome';
+});
+*/
+Route::get('/', function () {
+    return view('welcome');
 });
