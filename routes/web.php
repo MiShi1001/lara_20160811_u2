@@ -20,6 +20,11 @@ Route::get('/', function () {
     return 'welcome';
 });
 */
+/*跳轉頁面
 Route::get('/', function () {
     return redirect('welcome');
+});
+*/
+Route::get('hello/{name}',function($name){
+    return'Hello,'.$name;
 });
