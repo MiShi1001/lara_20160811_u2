@@ -10,11 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-/*初始化
+//初始化
 Route::get('/', function () {
     return view('welcome');
 });
-*/
+
 /*回傳字串
 Route::get('/', function () {
     return 'welcome';
